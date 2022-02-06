@@ -3,3 +3,10 @@ h1{
   background: rgb(204, 233, 208);
   
 }
+
+/* get the deleted file in git
+zuerst wird log number gesucht:
+
+1. $ git log -- fileName
+2. $ git chekchout 5firstNumber fileName
+*/

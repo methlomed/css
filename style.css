@@ -1,11 +1,42 @@
-h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background: #f5ddf1;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.8;
+  padding-bottom: 300px;
+}
+.ub1 {
+  margin: 50px auto;
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  background: #95f1bf28;
 
-/* get the deleted file in git
-zuerst wird log number gesucht:
+}
+.judul {
+  flex: 3;
+  order: 2;
+}
+.colLi {
+  flex: 1;
+  order: 1;
+}
+.colR {
+  flex: 1;
+  order: 3;
+}
+/* --------------- */
 
-1. $ git log -- fileName
-2. $ git chekchout 5firstNumber fileName
-*/
+.ub2 {
+  margin: 40px auto;
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  background: #eaedeb;
+
+}
