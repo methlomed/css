@@ -4,18 +4,17 @@ body {
   padding: 0;
 }
 body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.8;
   padding-bottom: 300px;
 }
 .ub1 {
   margin: 50px auto;
-  width: 1200px;
+  max-width: 1000px;
   box-sizing: border-box;
   padding: 20px;
   display: flex;
   background: #95f1bf28;
-
 }
 .judul {
   flex: 3;
@@ -31,27 +30,34 @@ body {
 }
 /* --------------- */
 
-.ub2 {
-  margin: 40px auto;
-  max-width: 1000px;
-  box-sizing: border-box;
-  padding: 20px;
-  display: flex;
-  background: #eaedeb;
-justify-content: space-around
-}
-
 .container {
-  width: 30%;
   box-sizing: border-box;
   padding: 20px;
+  margin-bottom: 20px;
 }
-.A{
-  background-color: rgb(252, 196, 196);
+.A {
+  background-color: rgba(236, 177, 177, 0.687);
 }
 .B {
-  background-color: rgb(76, 236, 76);
+  background-color: rgb(197, 247, 197);
 }
 .C {
-  background-color: rgb(173, 160, 240);
+  background-color: rgb(217, 205, 241);
+}
+
+/* responsive */
+@media (min-width: 600px) {
+  .ub2 {
+    margin: 40px auto;
+    max-width: 1000px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    background: #011206;
+    justify-content: space-around;
+  }
+
+  .container {
+    width: 30%;
+  }
 }
