@@ -46,19 +46,22 @@ body {
 }
 /* ----------ub3-------- */
 .ub3 {
-  width: 1000px;
+  max-width: 1000px;
   margin: 50px auto;
+  padding: 20px;
   display: flex;
-  flex-wrap: wrap
-   background: rgb(244, 245, 176);
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+  background: rgb(245, 240, 182);
 }
 
-thumnail {
+.k {
   width: 50%;
 }
-.thumnail img{
+
+.k img{
   width: 100%;
-}
+}  
 
 /* responsive */
 @media (min-width: 600px) {
@@ -74,5 +77,9 @@ thumnail {
 
   .container {
     width: 30%;
+  }
+
+  .k {
+    width: 25%;
   }
 }
