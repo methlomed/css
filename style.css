@@ -28,7 +28,7 @@ body {
   flex: 1;
   order: 3;
 }
-/* --------------- */
+/* ------ub2--------- */
 
 .container {
   box-sizing: border-box;
@@ -43,6 +43,13 @@ body {
 }
 .C {
   background-color: rgb(217, 205, 241);
+}
+/* ----------ub3-------- */
+.ub3 {
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  fw
 }
 
 /* responsive */
