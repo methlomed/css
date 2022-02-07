@@ -49,7 +49,15 @@ body {
   width: 1000px;
   margin: 50px auto;
   display: flex;
-  fw
+  flex-wrap: wrap
+   background: rgb(244, 245, 176);
+}
+
+thumnail {
+  width: 50%;
+}
+.thumnail img{
+  width: 100%;
 }
 
 /* responsive */
